@@ -4,6 +4,12 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+var main = function(){
+	    $('.send').click(function(){
+	    	alert("Send functionality in development");
+	    });
+}
+
 (function($) {
 
 	skel.breakpoints({
