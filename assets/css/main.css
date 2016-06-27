@@ -2137,7 +2137,7 @@
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
-					color: inherit;
+					color: #888;
 				}
 
 				#main > section.dark strong {
@@ -2163,6 +2163,7 @@
 			#main > section.one {
 				/*background-color: #81918E;*/
 				background-image: url("images/Chicago.JPG");
+				font-color : #666;
 			}
 
 			#main > section.two {
