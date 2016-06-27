@@ -1,6 +1,0 @@
-1 ) About me section
-2 ) Bring in photo from Github or Facebook
-3 ) Bring in code repos from Github
-4 ) Create a micro blog section with functionality similar to when you click login
-	on Evernote.com.
-5 ) Add functionality for sending an email address to me.
