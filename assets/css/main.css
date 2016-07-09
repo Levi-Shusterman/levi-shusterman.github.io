@@ -2579,3 +2579,15 @@
 .slider-dots li.active-dot {
   color: #363636;
 }
+
+/*Sliding feature*/
+
+.slider {
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.slider .row{
+	/*margin: 25%;*/
+}

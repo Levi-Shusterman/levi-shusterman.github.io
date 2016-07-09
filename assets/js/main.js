@@ -26,6 +26,32 @@
 	    	alert("Send functionality in development");
 	    });
 
+	    $('.arrow-next').click(function() {
+	    	var currentDot = $('.active-dot');
+    		var nextDot = currentDot.next();
+
+    		  if( nextDot.length == 0){
+			        nextDot = $('.dot').first();
+			    }
+
+			currentDot.fadeOut(600).removeClass('active-dot');
+		    nextDot.fadeIn(600).addClass('active-dot');
+    	});
+
+    	   $('.arrow-prev').click(function() {
+			    var currentDot = $('.active-dot');
+			    var nextDot = currentDot.prev();
+			    
+			    if( nextDot.length == 0){
+			        nextDot = $('.dot').last();
+			    }
+
+			    currentDot.fadeOut(600).removeClass('active-dot');
+			    nextDot.fadeIn(600).addClass('active-dot');
+		  });
+
+
+
 		var	$window = $(window),
 			$body = $('body');
 
